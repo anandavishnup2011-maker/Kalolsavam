@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Kalolsavam</title>
+    <style>
+        .bg {
+            background-image: linear-gradient(rgba(050, 186, 145,0.5),rgb(050, 186, 145,0.5)), url(Images/KBP.png);
+            background-repeat:no-repeat;
+            background-size: 100% 100%;
+            width:100%;
+            aspect-ratio:1710/920;
+        }
+        ul{ list-style-type:none;
+        margin:0;
+        overflow:hidden;
+        padding:0;
+        background-color:#0a9269;
+        display:flex;
+    }
+    ul li a{
+        display:flex;
+        text-align:center;
+        padding:20px 10px;
+        text-decoration:none;
+        color:white;
+        font-size:40px;
+        
+
+    }
+    ul li a:hover{background-color:#74debe}
+
+    .head{text-align:center;
+    font-size:50px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:White;
+    padding-top:150px;
+    text-shadow: 2px 4px #000000
+   
+}
+   .button {
+        background-color:transparent;
+        font-size:40px;
+        border-radius:20px;
+        color:white;
+        border: 2px solid white;
+        height:90px;
+         }
+    .whole-button{display:flex;
+                justify-content:center;
+            padding-top:50px;
+            }   
+    
+    .About{text-align:center;
+        font-size:50px;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        line-height:120px;
+    }  
+    h3{color:rgb(86, 167, 218);
+    text-decoration:underline}
+    .button_inside{font-size:50px;
+                background-color:transparent;
+                border-radius:20px;
+                border: 5px solid ;
+                color:rgb(7, 152, 99);
+                height:60px;
+                width:200px;
+                padding-bottom:30px;               
+    }
+    h4{text-align:center;
+        font-size:90px;
+        color:#05241b
+    }
+    .rules{font-size:70px;}
+    .registration{ background-color:#74debe;
+    padding-top:60px;}
+    form{width:1000px;
+    margin:0 auto;
+    font-size:35px;
+ }
+ input[type="text"],
+ input[type="number"],
+ select{
+    width:100%;
+    height:60px;
+    font-size:30px;
+    padding:0 15px;
+    box-sizing:border-box;
+    margin:10px 0 25px;
+    border:2px solid black;
+    border-radius:78px;
+
+ }
+ input[type="radio"]{
+    width:30px;
+    height:30px;
+    margin-right:8px;
+ }
+ input[type="submit"]{
+    width:100%;
+    height:75px;
+    font-size:30px;
+    color:white;
+    background-color:rgb(12, 106, 78);
+    border:none;
+    border-radius:15px;
+    cursor:pointer;
+
+ }
+input[type="submit"]:hover{background-color:#30bf94}
+    
+    
+    
+    
+
+    </style>
+    </head>
+
+<body id="body">
+ <ul>
+    <li style="margin-right:auto;"><a href="Kalolsavam.html">School Kalolsavam</a></li>
+    <li ><a href="Kalolsavam.html">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#registration">Events</a></li>
+</ul>
+    <div class="bg">
+        <div class="head">
+            <h1>KERALA SCHOOL KALOLSAVAM</h1>
+            <h2>2025-2026</h2>
+            <p>"Where Tradition Meets Talent — Celebrating the Spirit of Youth."</p>
+        </div>
+        <div class="whole-button">
+             <a href="#about"><button class="button">About Kalolsavam</button></a>
+        </div>
+     </div>   
+
+<div class="About" id="about">
+    <h3>About Kalolsavam</h3>
+    <p>The 64th edition of Asia's largest cultural festival for students is currently being held in<b>Thrissur</b> from <b>January 14 to 18, 2026.</b> With 25 venues named after Kerala's major rivers, the festival showcases the incredible talents of over 14,000 students across 239 events.The Kerala School Kalolsavam is unique in its four-tier structure, where students progress from School level to Sub-District, District, and finally the State level. This prestigious event, started in 1956, continues to be the heartbeat of Kerala's youth culture.</p>
+    <div class="button_about">
+        <a href="#body"><button class="button_inside">HOME</button></a>
+    </div>
+    <br>
+    <img style="height:700px; width:1200px;" src="Images/Kathak.jfif">LMAO</img>
+</div>
+<br>
+<br>
+<div class="registration" id="registration">
+    <h4>Registration</h4>
+    <p class="rules">RULES:Register by <b>November 25, 2026,</b> carry a valid School ID, and report backstage 30 minutes before your scheduled event time.</p></span>
+<form  action="Thanku.html " method="get">
+    <label for="Name">Enter your Name:-</label>
+    <br>
+    <input type="text" id="Name" name="name" placeholder="Enter your name">
+    <br>
+    <label for="age">Enter Your Age:--</label>
+    <br>
+    <input type="number" id="age" name="age" placeholder="Enter Your Age">
+    <br>
+    <label for="School">Enter your School name</label>
+    <br>
+    <input type="text" id="School" name="school" placeholder="your school">
+    <div>
+        <h5 style="font-size:30px;">Gender</h5>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+    </div>
+    <div>
+        <label for="Programs">Competetion List</label>
+        <br>
+        <select name="CompetetionList" id="Programs">
+            <option value="Kathak">Kathak</option>
+            <option value="Group Dance">Group Dance</option>
+            <option value="Solo Dance">Solo Dance</option>
+            <option value="Otanthullal">Ottanthullal</option>
+            <option value="Mono Act">Mono Act</option>
+            <option value="Violin">Violin</option>
+            <option value="Veena">Veena</option>
+            <option value="Chenda">Chenda</option>
+            <option value="Mrthankam">Mrthankam</option>
+            <option value="Edathalam">Edathalam</option>
+        </select>
+        <br>
+        <input type="submit">
+        
+    </div>
+</form>
+</div>
+</body>
+</html>
